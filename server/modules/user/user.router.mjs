@@ -74,6 +74,7 @@ router.get("/:id",raw(async (req, res) => {
     res.status(200).json(user);
   })
 );
+
 // UPDATES A SINGLE USER
 router.put("/:id",raw(async (req, res) => {
    await schemaUpdate.validateAsync(req.body);

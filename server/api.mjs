@@ -35,3 +35,4 @@ app.use('*', not_found)
   await app.listen(PORT,HOST);
   log.magenta(`api is live on`,` ✨ ⚡  http://${HOST}:${PORT} ✨ ⚡`);  
 })().catch(console.log)
+
